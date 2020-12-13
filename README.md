@@ -5,7 +5,21 @@ Apesar de simples, usa bastante conceitos do Android Development, como View, Vie
 
 Ele funciona apertando um botão chamado "Roll". Ao apertar, o código escolherá uma imagem de maneira aleatória e mostrará ao usuário.
 
-O app foi criado e testado em um dispositivo físico, Redmi Note 9s, mas é disponível para qualquer um que queira dar aquele ```git clone```.
+Lógica usada para fazer a escolha da imagem:
+```kotlin
+private fun rollDice() {
+    val drawableResource = when (Random.nextInt(6) + 1) {
+      1 -> R.drawable.dice_1
+      2 -> R.drawable.dice_2
+      3 -> R.drawable.dice_3
+      4 -> R.drawable.dice_4
+      5 -> R.drawable.dice_5
+      else -> R.drawable.dice_6
+    }
+```
+
+## Contribuição
+O app foi criado e testado em um dispositivo físico, Redmi Note 9s, mas é disponível para qualquer um que queira contribuir.
 
 Caso tenha alguma ideia de como melhorar o app, realize os seguintes passos:
 
