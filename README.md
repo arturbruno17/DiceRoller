@@ -1,6 +1,6 @@
 # DiceRoller
 
-Esse projeto criado durante o curso Developing Android Apps with Koltin, da Google, para representar a "rolagem" de um dado.
+Esse projeto foi criado durante o curso Developing Android Apps with Koltin, da Google, para representar a "rolagem" de um dado.
 Apesar de simples, usa bastante conceitos do Android Development, como View, ViewGroup, Layout, Activity, etc.
 
 Ele funciona apertando um botão chamado "Roll". Ao apertar, o código escolherá uma imagem de maneira aleatória e mostrará ao usuário.
